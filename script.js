@@ -7,6 +7,7 @@ tiles.forEach(tile => {
     tile.addEventListener('click',()=>{
         tile.nextElementSibling.classList.toggle('active');
         tile.lastElementChild.classList.toggle('invert');
+        tile.firstElementChild.classList.toggle('bold')
         });
     })
     

@@ -89,6 +89,11 @@ body {
   cursor: pointer;
 }
 
+.accordion__title .bold {
+  font-weight: bold;
+  color: #000;
+}
+
 .accordion__title h3 {
   font-weight: 400;
 }
@@ -165,6 +170,9 @@ body {
   .accordion-wrapper {
     border-radius: 0rem 1rem 1rem 0rem;
     padding-left: 2rem;
+  }
+  .accordion-wrapper h2 {
+    text-align: left;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -58,6 +58,10 @@ body {
     color: $clr-red;
     cursor: pointer;
   }
+  .bold {
+    font-weight: bold;
+    color: #000;
+  }
   h3 {
     font-weight: 400;
   }
@@ -123,5 +127,8 @@ body {
   .accordion-wrapper {
     border-radius: 0rem 1rem 1rem 0rem;
     padding-left: 2rem;
+    h2 {
+      text-align: left;
+    }
   }
 }
